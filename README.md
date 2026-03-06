@@ -57,13 +57,13 @@
 
 <div align="center">
 
-| 🚀 Project | 📝 Description | 🔗 Link |
+| Project | Description | 🔗 Link |
 |:-----------|:--------------|:-------:|
-| 🎵 Facial Expression - Music Suggestion | ML system for real-time emotion-based music recommendations | [GitHub](https://github.com/dipeshshrestha16/Facial-Expression-based-Music-Recommendation.git) |
-| 😃 Facial Expression & Smart Speech Recognition | Academic AI/ML project | [GitHub](https://github.com/dipeshshrestha16/ML-and-AI.git) |
-| 📈 Apple Stock Price Prediction | Academic project predicting stock prices | [GitHub](https://github.com/dipeshshrestha16/Apple-Stock-Price-Prediction) |
-| 🫁 Pneumonia Detection | Chest X-ray AI detection project | [GitHub](https://github.com/dipeshshrestha16/Pneumonia-Detection) |
-| ☕ Café Management System (FYP) | Full-stack POS system | [GitHub](https://github.com/dipeshshrestha16/Kaffe-Management-System.git) |
+| Facial Expression - Music Suggestion | ML system for real-time emotion-based music recommendations | [GitHub](https://github.com/dipeshshrestha16/Facial-Expression-based-Music-Recommendation.git) |
+| Facial Expression & Smart Speech Recognition | Academic AI/ML project | [GitHub](https://github.com/dipeshshrestha16/ML-and-AI.git) |
+| Apple Stock Price Prediction | Academic project predicting stock prices | [GitHub](https://github.com/dipeshshrestha16/Apple-Stock-Price-Prediction) |
+| Pneumonia Detection | Chest X-ray AI detection project | [GitHub](https://github.com/dipeshshrestha16/Pneumonia-Detection) |
+| Café Management System (FYP) | Full-stack POS system | [GitHub](https://github.com/dipeshshrestha16/Kaffe-Management-System.git) |
 
 </div>
 
