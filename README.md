@@ -1,32 +1,19 @@
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                    HEADER                                   -->
 <!-- ═══════════════════════════════════════════════════════════ -->
-
 <div align="center">
-
 <table border="0" cellspacing="0" cellpadding="20">
 <tr>
 <td width="200" align="center" valign="middle">
   <img src="https://media.tenor.com/dkaxJHOpxLYAAAAi/hoppy-the-frog.gif" width="160"/>
 </td>
 <td align="left" valign="middle">
-
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=38&pause=99999&color=FFFFFF&width=560&lines=DIPESH+SHRESTHA" alt="Name"/>
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=16&pause=99999&color=9b59b6&width=560&lines=AI+%2F+ML+ENGINEER+·+FULL+STACK+DEVELOPER" alt="Title"/>
-
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=36&duration=3000&pause=11000&color=FFFFFF&width=560&height=60&lines=DIPESH+SHRESTHA" alt="Name"/>
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&duration=2500&pause=1200&color=9b59b6&width=560&height=30&lines=AI+%2F+ML+Engineer+%7C+Full+Stack+Developer;Python+%7C+PHP+%7C+Java;AI+%26+ML+Enthusiast;Currently+Working+On%3A+Pneumonia+Detection+from+X-Ray" alt="Title"/>
 </td>
 </tr>
 </table>
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&pause=1200&color=9b59b6&center=true&vCenter=true&width=560&lines=Python+%7C+PHP+%7C+Java;AI+%26+ML+Enthusiast;Full+Stack+Developer;Backend+Specialist;Currently%3A+Pneumonia+Detection+from+X-Ray" alt="Typing SVG"/>
-
 <br/><br/>
-
 <img src="https://komarev.com/ghpvc/?username=dipeshshrestha16&label=VIEWS&color=9b59b6&style=flat-square&labelColor=0D1117"/>
 &nbsp;
 <img src="https://img.shields.io/github/followers/dipeshshrestha16?label=FOLLOWERS&style=flat-square&color=9b59b6&labelColor=0D1117"/>
@@ -34,7 +21,6 @@
 <img src="https://img.shields.io/badge/STATUS-LEARNING-00ff41?style=flat-square&labelColor=0D1117"/>
 &nbsp;
 <img src="https://img.shields.io/badge/FOCUS-AI%2FML-9b59b6?style=flat-square&labelColor=0D1117"/>
-
 </div>
 
 ---
@@ -44,7 +30,7 @@
 <img align="right" alt="Coding" width="360" src="https://c.tenor.com/OZbNvHWVgakAAAAC/programming-coding.gif"/>
 
 ```python
-class Dipesh:
+class AboutMe:
     name     = "Dipesh Shrestha"
     location = "Nepal 🇳🇵"
     currently_working_on = "Pneumonia Detection . Chest X-Ray AI"
@@ -67,7 +53,7 @@ class Dipesh:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -133,5 +119,4 @@ class Dipesh:
 *Thanks for visiting!*
 
 <br/>
-
 </div>
