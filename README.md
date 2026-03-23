@@ -9,7 +9,7 @@
 </td>
 <td align="left" valign="middle">
 <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=36&duration=3000&pause=11000&color=FFFFFF&width=560&height=60&lines=DIPESH+SHRESTHA" alt="Name"/>
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&duration=2500&pause=1200&color=9b59b6&width=560&height=30&lines=AI+%2F+ML+Engineer+%7C+Full+Stack+Developer;Python+%7C+PHP+%7C+Java;AI+%26+ML+Enthusiast;Currently+Working+On%3A+Pneumonia+Detection+from+X-Ray" alt="Title"/>
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&duration=2500&pause=1200&color=9b59b6&width=560&height=30&lines=AI+%2F+ML+Engineer+%7C+Full+Stack+Developer;Python+%7C+PHP+%7C+Java;AI+%26+ML+Enthusiast;Currently+Working+On%3A+URL+Shortener+API" alt="Title"/>
 </td>
 </tr>
 </table>
