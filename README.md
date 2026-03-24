@@ -78,7 +78,6 @@ class AboutMe:
 | `01` | **URL Shortener**   *(active)*| `API` `Flask` `JS`| [→](https://github.com/dipeshshrestha16/URL-Shortener-API) |
 | `02` | **Facial Expression → Music Suggestion** | `ML` `Computer Vision` | [→](https://github.com/dipeshshrestha16/Facial-Expression-based-Music-Recommendation.git) |
 | `03` | **Facial Expression + Speech Recognition** | `AI` `NLP` | [→](https://github.com/dipeshshrestha16/ML-and-AI.git) |
-
 | `04` | **Pneumonia Detection** | `Deep Learning` `Medical` | [→](https://github.com/dipeshshrestha16/Pneumonia-Detection) |
 | `05` | **Café Management System** *(FYP)* | `Full Stack` `POS` | [→](https://github.com/dipeshshrestha16/Kaffe-Management-System.git) |
 
