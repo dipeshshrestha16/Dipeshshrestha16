@@ -59,11 +59,11 @@ class AboutMe:
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=python,php,java,js&theme=dark&perline=3"/>
+<img src="https://skillicons.dev/icons?i=python,php,java,js&theme=dark&perline=4"/>
 
 **Frameworks & Platforms**
 
-<img src="https://skillicons.dev/icons?i=flask,django,aws,wordpress,docker,postman&theme=dark&perline=5"/>
+<img src="https://skillicons.dev/icons?i=flask,django,aws,wordpress,docker,postman&theme=dark&perline=6"/>
 
 </div>
 
