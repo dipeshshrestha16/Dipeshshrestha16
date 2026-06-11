@@ -96,7 +96,7 @@ class DipeshShrestha:
 <!--                    PROJECTS                                 -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-## 🚀 Featured Projects
+##  Featured Projects
 
 <div align="center">
 
@@ -126,7 +126,7 @@ class DipeshShrestha:
 <!--                    TROPHIES                                 -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-## 🏆 GitHub Trophies
+##  GitHub Trophies
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=dipeshshrestha16&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=6"/>
@@ -138,7 +138,7 @@ class DipeshShrestha:
 <!--                    GITHUB STATS                             -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-## 📊 GitHub Stats
+##  GitHub Stats
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=dipeshshrestha16&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=9b59b6&icon_color=00ff41&text_color=c9d1d9&rank_icon=github" width="48%"/>
@@ -154,10 +154,10 @@ class DipeshShrestha:
 <!--                    DEV QUOTE                                -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-## 💭 Quote of the Day
+##  Quote of the Day
 
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark"/>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=Code%20is%20like%20humor.%20When%20you%20have%20to%20explain%20it%2C%20it%E2%80%99s%20bad.&author=Cory+House"/>
 </div>
 
 ---
@@ -166,7 +166,7 @@ class DipeshShrestha:
 <!--                    CONNECT                                  -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-## 🤝 Connect With Me
+##  Connect With Me
 
 <div align="center">
 <br/>
