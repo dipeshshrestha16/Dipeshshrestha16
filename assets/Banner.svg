@@ -1,42 +1,106 @@
-<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#161b22"/>
+      <stop offset="0%" stop-color="#060a12"/>
+      <stop offset="100%" stop-color="#0d1420"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#a855f7"/>
-      <stop offset="100%" stop-color="#22d3ee"/>
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
     </linearGradient>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#8b9bb4" stroke-opacity="0.05" stroke-width="1"/>
     </pattern>
   </defs>
 
-  <rect width="900" height="200" rx="14" fill="url(#bg)"/>
-  <rect width="900" height="200" rx="14" fill="url(#grid)"/>
-  <rect x="1" y="1" width="898" height="198" rx="13" fill="none" stroke="#30363d" stroke-width="1.5"/>
+  <rect width="900" height="220" rx="14" fill="url(#bg)"/>
+  <rect width="900" height="220" rx="14" fill="url(#grid)"/>
+  <circle cx="850" cy="20" r="140" fill="url(#glowCyan)">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="40" cy="210" r="150" fill="url(#glowPurple)">
+    <animate attributeName="opacity" values="1;0.55;1" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <rect x="1" y="1" width="898" height="218" rx="13" fill="none" stroke="#243043" stroke-width="1.2"/>
+
+  <!-- circuit traces -->
+  <g fill="none" stroke="#22d3ee" stroke-opacity="0.45" stroke-width="1.3">
+    <path d="M0,40 H150 L170,60 H320" stroke-dasharray="5 6">
+      <animate attributeName="stroke-dashoffset" from="0" to="-110" dur="3.2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M900,180 H700 L680,160 H540" stroke="#a855f7" stroke-opacity="0.4" stroke-dasharray="5 6">
+      <animate attributeName="stroke-dashoffset" from="0" to="110" dur="3.6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <circle cx="320" cy="60" r="3" fill="#22d3ee">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="540" cy="160" r="3" fill="#a855f7">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- scanline sweep -->
+  <rect x="0" y="-40" width="900" height="40" fill="url(#scan)">
+    <animate attributeName="y" from="-40" to="220" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
 
   <!-- window chrome -->
-  <rect x="0" y="0" width="900" height="34" rx="14" fill="#161b22"/>
-  <rect x="0" y="20" width="900" height="14" fill="#161b22"/>
-  <circle cx="24" cy="17" r="6" fill="#ff5f56"/>
-  <circle cx="46" cy="17" r="6" fill="#ffbd2e"/>
-  <circle cx="68" cy="17" r="6" fill="#27c93f"/>
-  <text x="450" y="22" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="12" fill="#8b949e">dipesh@github ~ model_card.py</text>
-  <line x1="0" y1="34" x2="900" y2="34" stroke="#30363d" stroke-width="1"/>
+  <rect x="0" y="0" width="900" height="30" rx="14" fill="#0a0f18" fill-opacity="0.9"/>
+  <rect x="0" y="18" width="900" height="12" fill="#0a0f18" fill-opacity="0.9"/>
+  <circle cx="22" cy="15" r="5" fill="#ff5f56"/>
+  <circle cx="42" cy="15" r="5" fill="#ffbd2e"/>
+  <circle cx="62" cy="15" r="5" fill="#27c93f"/>
+  <text x="450" y="19" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="11" fill="#5b6b85">session://dipesh_shrestha — active</text>
+  <line x1="0" y1="30" x2="900" y2="30" stroke="#243043" stroke-width="1"/>
 
-  <!-- prompt lines -->
-  <text x="34" y="76" font-family="Consolas, Menlo, monospace" font-size="16" fill="#22d3ee">$ whoami</text>
-  <text x="34" y="106" font-family="Consolas, Menlo, monospace" font-size="30" font-weight="700" fill="#f0f6fc">Dipesh Shrestha</text>
-  <text x="34" y="134" font-family="Consolas, Menlo, monospace" font-size="15" fill="#8b949e">AI/ML Engineer · Full-Stack Developer · Kathmandu, Nepal</text>
+  <!-- prompt + name reveal -->
+  <text x="34" y="70" font-family="Consolas, Menlo, monospace" font-size="15" fill="#22d3ee">root@dipesh:~$ whoami</text>
 
-  <rect x="34" y="152" width="360" height="4" rx="2" fill="url(#accent)"/>
-
-  <text x="34" y="180" font-family="Consolas, Menlo, monospace" font-size="13" fill="#7ee787">status: <tspan fill="#c9d1d9">training on new problems, open to collab</tspan></text>
-
-  <!-- blinking cursor -->
-  <rect x="620" y="63" width="10" height="18" fill="#a855f7">
-    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+  <g>
+    <text x="34" y="118" font-family="Consolas, Menlo, monospace" font-size="34" font-weight="700" fill="#eef2f8" letter-spacing="1">
+      <tspan x="34"  opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.20s" fill="freeze"/>D</tspan>
+      <tspan x="57"  opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.27s" fill="freeze"/>I</tspan>
+      <tspan x="80"  opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.34s" fill="freeze"/>P</tspan>
+      <tspan x="103" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.41s" fill="freeze"/>E</tspan>
+      <tspan x="126" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.48s" fill="freeze"/>S</tspan>
+      <tspan x="149" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.55s" fill="freeze"/>H</tspan>
+      <tspan x="195" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.69s" fill="freeze"/>S</tspan>
+      <tspan x="218" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.76s" fill="freeze"/>H</tspan>
+      <tspan x="241" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.83s" fill="freeze"/>R</tspan>
+      <tspan x="264" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.90s" fill="freeze"/>E</tspan>
+      <tspan x="287" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.97s" fill="freeze"/>S</tspan>
+      <tspan x="310" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.04s" fill="freeze"/>T</tspan>
+      <tspan x="333" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.11s" fill="freeze"/>H</tspan>
+      <tspan x="356" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.18s" fill="freeze"/>A</tspan>
+    </text>
+  </g>
+  <rect x="34" y="98" width="4" height="26" fill="#22d3ee">
+    <animate attributeName="x" calcMode="discrete" fill="freeze"
+      values="34;57;80;103;126;149;172;195;218;241;264;287;310;333;356;379"
+      keyTimes="0;0.067;0.133;0.2;0.267;0.333;0.4;0.467;0.533;0.6;0.667;0.733;0.8;0.867;0.933;1"
+      dur="1.25s" begin="0.20s"/>
+    <animate attributeName="opacity" values="1;0;1" dur="0.9s" begin="1.45s" repeatCount="indefinite"/>
   </rect>
+
+  <text x="34" y="148" font-family="Consolas, Menlo, monospace" font-size="14" fill="#8b96ab">AI/ML engineer — systems that see, read, and decide</text>
+
+  <!-- status readout -->
+  <text x="34" y="188" font-family="Consolas, Menlo, monospace" font-size="12" fill="#5b6b85">status</text>
+  <circle cx="88" cy="184" r="4" fill="#27c93f">
+    <animate attributeName="opacity" values="1;0.35;1" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <text x="100" y="188" font-family="Consolas, Menlo, monospace" font-size="12" fill="#c9d3e0">active</text>
+  <text x="180" y="188" font-family="Consolas, Menlo, monospace" font-size="12" fill="#5b6b85">build</text>
+  <text x="222" y="188" font-family="Consolas, Menlo, monospace" font-size="12" fill="#c9d3e0">2026.07</text>
+  <text x="310" y="188" font-family="Consolas, Menlo, monospace" font-size="12" fill="#5b6b85">origin</text>
+  <text x="358" y="188" font-family="Consolas, Menlo, monospace" font-size="12" fill="#c9d3e0">Kathmandu, NP</text>
 </svg>
