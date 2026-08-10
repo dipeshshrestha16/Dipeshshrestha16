@@ -42,11 +42,11 @@ $ exploring computer vision, NLP systems
 
 | Project | What it does | Stack |
 |---|---|---|
+| [`AstroAI`](https://sanatanjyotish.com/) | Astrology AI system for Birth chart and horoscope | `Next.JS` `Typescript` `LLM` |
+| [`MentaAI`](https://menta.aatmavedalab.com/) | Mental health AI companion and ultimate health and wellbeing tracker | `Next.JS` `Python` `LLM` |
 | [`Facial-Expression-Music-Recommendation`](https://github.com/dipeshshrestha16/Facial-Expression-based-Music-Recommendation) | Reads facial expression from a webcam feed and recommends music matched to the detected mood | `Python` `OpenCV` `TensorFlow` |
 | [`Pneumonia-Detection`](https://github.com/dipeshshrestha16/Pneumonia-Detection) | Classifies chest X-rays for signs of pneumonia | `Python` `TensorFlow` `CNN` |
 | [`URL-Shortener-API`](https://github.com/dipeshshrestha16/URL-Shortener-API) | REST API for link shortening — Snipper | `Flask` `Redis` |
-| [`Kaffe-Management-System`](https://github.com/dipeshshrestha16/Kaffe-Management-System) | Full-stack inventory and order management | `PHP` `Laravel` `MySQL` |
-| [`ML-and-AI`](https://github.com/dipeshshrestha16/ML-and-AI) | Sandbox of ML experiments and notebooks | `Python` `scikit-learn` |
 
 <br/>
 
